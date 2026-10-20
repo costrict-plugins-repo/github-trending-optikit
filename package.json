@@ -1,0 +1,37 @@
+{
+  "name": "optikit",
+  "version": "1.4.2",
+  "description": "OptiKit CLI",
+  "main": "src/cli.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "optikit": "dist/cli.js",
+    "ok": "dist/cli.js"
+  },
+  "keywords": [
+    "optikit",
+    "optikit_cli",
+    "optikit_cli_tool",
+    "opticore"
+  ],
+  "author": "Mahmoud El Shenawy",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "boxen": "^8.0.1",
+    "chalk": "^4.1.2",
+    "yargs": "^17.7.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/boxen": "^3.0.1",
+    "@types/node": "^20.0.0",
+    "@types/yargs": "^17.0.33",
+    "typescript": "^5.6.3"
+  }
+}

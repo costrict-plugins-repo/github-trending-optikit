@@ -1,0 +1,36 @@
+{
+  "name": "optikit-marketplace",
+  "owner": {
+    "name": "Mahmoud El Shenawy",
+    "email": "dev.m.elshenawy@icloud.com"
+  },
+  "plugins": [
+    {
+      "name": "optikit",
+      "source": {
+        "source": "github",
+        "repo": "dev-mahmoud-elshenawy/optikit"
+      },
+      "description": "Build, version, and deploy Flutter apps in one CLI. 28 MCP tools for builds, versioning, module scaffolding, and project maintenance.",
+      "version": "1.3.0",
+      "author": {
+        "name": "Mahmoud El Shenawy"
+      },
+      "homepage": "https://github.com/dev-mahmoud-elshenawy/optikit",
+      "repository": "https://github.com/dev-mahmoud-elshenawy/optikit",
+      "license": "MIT",
+      "keywords": [
+        "flutter",
+        "opticore",
+        "build",
+        "version-management",
+        "testflight",
+        "apk",
+        "ipa",
+        "bloc",
+        "fvm",
+        "cli"
+      ]
+    }
+  ]
+}

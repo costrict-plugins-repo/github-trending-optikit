@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "optikit": {
+      "command": "optikit",
+      "args": ["mcp"]
+    }
+  }
+}

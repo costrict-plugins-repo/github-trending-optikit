@@ -1,0 +1,27 @@
+import chalk from "chalk";
+
+export class LoggerHelpers {
+  static success(message: string) {
+    console.log(chalk.green(`  ✔ ${message}`));
+  }
+
+  static error(message: string) {
+    console.log(chalk.red(`  ✖ ${message}`));
+  }
+
+  static warning(message: string) {
+    console.log(chalk.yellow(`  ⚠ ${message}`));
+  }
+
+  static info(message: string) {
+    console.log(chalk.cyan(`  ℹ ${message}`));
+  }
+
+  static step(message: string) {
+    console.log(chalk.white(`  → ${message}`));
+  }
+
+  static dim(message: string) {
+    console.log(chalk.gray(`    ${message}`));
+  }
+}
